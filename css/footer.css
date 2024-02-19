@@ -1,0 +1,15 @@
+footer{
+    /* position: var(--position--value--01); */
+    align-items: var(--align--items--value--03); 
+    display: var(--display--value--01);
+
+    background-color: var(--footer--background--color);
+    color: var(--footer--color);
+
+    /* margin: var(--zero--00); */
+    /* padding: var(--zero--00); */
+    margin: var(--footer--margin);
+    padding: var(--footer--padding);
+    width: var(--footer--width);
+    height: var(--footer--height);
+}

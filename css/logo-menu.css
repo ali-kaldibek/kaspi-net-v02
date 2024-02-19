@@ -1,0 +1,37 @@
+.logo-menu,
+.sub-menu{
+    display: inline-block;
+}
+
+.sub-menu-container{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+
+    /* backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: var(--header--background--color); */
+}
+.logo-menu-container:hover .sub-menu-container{
+    display: block;
+}
+
+.sub-menu{
+    font-size: 14px;
+    display: block;
+    padding: 12px 16px;
+    color: black;
+
+    /* background-color: #fff; */
+    margin: 4px;
+}
+.sub-menu:hover{
+    color: red;
+    /* background-color: gray; */
+    background-color: var(--class--logo--hover--background--color);
+
+}
+
+
+
+

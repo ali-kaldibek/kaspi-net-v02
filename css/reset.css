@@ -1,0 +1,49 @@
+:root{
+    --none--: none;
+    --zero--00: 0;
+    --100--percent: 100%;
+    --border--none: var(--none--);
+
+    --text-decoration__none: none;
+    --cursor__pointer: pointer;
+    --margin__size: #; 
+    --padding__size: #; 
+
+}
+*{
+    /* border: 1px solid red; */
+}
+/* div{
+    width: 0;
+    height: 0;
+} */
+a{
+    text-decoration: var(--text-decoration__none);
+    cursor: var(--cursor__pointer);
+    color: red;
+}
+
+html,
+body{
+    margin: var(--margin__0);
+    font-family: serif;
+    border: none;
+
+    overflow-x: hidden;
+}
+
+em{
+    font-style: normal;
+    /* width: 0; */
+    /* height: 0; */
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+html,
+body,
+header,
+main,
+footer{
+    border: var(--border--none);
+}

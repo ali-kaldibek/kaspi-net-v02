@@ -1,0 +1,231 @@
+
+:root{
+/* < < < <   < < < <      LIGHT MODE     > > > >   > > > > */
+/* ↓ ↓ ↓ ↓   ↓ ↓ ↓ ↓         START       ↓ ↓ ↓ ↓   ↓ ↓ ↓ ↓ */
+
+    --light__mode__body__background__color: #F8F9FB; 
+    --light__mode__body__color: #000000; 
+
+                        /* $$$ */
+
+    --light__mode__header__background__color: rgba(255, 255, 255, 0.75); 
+    --light__mode__header__color: #; 
+
+                        /* $$$ */
+
+    
+    --light__mode__class__logo__disable__color: darkgray;
+    /* --light__mode__class__logo__left__hover__enable__color: #BFBFBF; */
+    --light__mode__class__logo__left__hover__enable__color: #0A5DA6;
+    --light__mode__class__logo__right__hover__enable__color: #000000;
+    --light__mode__class__logo__hover__background__color: #ffffff60;
+
+                        /* $$$ */
+
+    /* --light__mode__class__web__language__disable__color: darkgray;  */
+    --light__mode__class__web__language__disable__color: #E5E5E5; 
+
+    
+    /* --light__mode__class__web__language__hover__enable__color: grey; */
+    --light__mode__class__web__language__hover__enable__color: gray;
+
+    /* --light__mode__class__web__language__hover__enable__color: #E5E5E5; */
+
+
+                        /* $$$ */
+
+    --light__mode__main__background__color: #; 
+    --light__mode__main__color: #; 
+
+                        /* $$$ */
+
+
+    --light__mode__heading__color: brown;
+    /* --light__mode__h1__color: #; */
+    /* --light__mode__h2__color: #; */
+    /* --light__mode__h3__color: #; */
+    /* --light__mode__h4__color: #; */
+    /* --light__mode__h5__color: #; */
+    /* --light__mode__h6__color: #; */
+
+                        /* $$$ */
+
+    --light__mode__paragraph__color: tomato;
+
+                        /* $$$ */
+
+    /* --light__mode__footer__background__color: #F0F8FF;  */
+    
+    --light__mode__footer__background__color: #F5F5F5; 
+
+    --light__mode__footer__color: #; 
+
+/* ↑ ↑ ↑ ↑   ↑ ↑ ↑ ↑      LIGHT MODE     ↑ ↑ ↑ ↑   ↑ ↑ ↑ ↑ */
+/* < < < <   < < < <          END        > > > >   > > > > */
+
+
+/* < < < <   < < < <       DARK MODE     > > > >   > > > > */
+/* ↓ ↓ ↓ ↓   ↓ ↓ ↓ ↓         START       ↓ ↓ ↓ ↓   ↓ ↓ ↓ ↓ */
+
+    --dark__mode__body__background__color: ; 
+    --dark__mode__body__background__color: rgb(14,17,23); 
+    --dark__mode__body__color: white; 
+
+                        /* $$$ */
+
+    /* --dark__mode__header__background__color: #4646b1;  */
+    /* --dark__mode__header__background__color: rgba(0, 0, 0, 0.1);  */
+    --dark__mode__header__background__color: rgba(0, 0, 0, 0.75); 
+
+
+    --dark__mode__header__color: #d0d0dc; 
+
+                        /* $$$ */
+
+    --dark__mode__class__logo__disable__color: #888;
+    --dark__mode__class__logo__left__hover__enable__color: ;
+    --dark__mode__class__logo__right__hover__enable__color: darkgray;
+    --dark__mode__class__logo__hover__background__color: #;
+
+                        /* $$$ */
+
+    --dark__mode__class__web__language__disable__color: #; 
+    --dark__mode__class__web__language__hover__enable__color: #;
+
+                        /* $$$ */
+
+    --dark__mode__main__background__color: #; 
+    --dark__mode__main__color: #; 
+
+                        /* $$$ */
+
+    --dark__mode__heading__color: bisque;
+    /* --dark__mode__h1__color: #; */
+    /* --dark__mode__h2__color: #; */
+    /* --dark__mode__h3__color: #; */
+    /* --dark__mode__h4__color: #; */
+    /* --dark__mode__h5__color: #; */
+    /* --dark__mode__h6__color: #; */
+
+                        /* $$$ */
+
+    --dark__mode__paragraph__color: tan;
+
+                        /* $$$ */
+
+    /* --dark__mode__footer__background__color: #231F20;  */
+    --dark__mode__footer__background__color: rgb(20,20,47); 
+    --dark__mode__footer__color: chartreuse; 
+
+/* ↑ ↑ ↑ ↑   ↑ ↑ ↑ ↑       DARK MODE     ↑ ↑ ↑ ↑   ↑ ↑ ↑ ↑ */
+/* < < < <   < < < <          END        > > > >   > > > > */
+
+
+
+
+
+
+
+
+
+/* < < < <   < < < <      LIGHT MODE     > > > >   > > > > */
+
+    --body--background--color--: var(--light__mode__body__background__color--); 
+
+    --body--background--color: var(--light__mode__body__background__color); 
+    --body--color: var(--light__mode__body__color); 
+
+                        /* $$$ */
+
+    --header--background--color: var(--light__mode__header__background__color); 
+    --header--color: var(--light__mode__header__color); 
+
+                        /* $$$ */
+
+    --class--logo--disable--color: var(--light__mode__class__logo__disable__color);
+    --class--logo--hover--background--color: var(--light__mode__class__logo__hover__background__color);
+    --class--logo--left--hover--enable--color: var(--light__mode__class__logo__left__hover__enable__color);
+    --class--logo--right--hover--enable--color: var(--light__mode__class__logo__right__hover__enable__color);
+
+                        /* $$$ */
+
+    --class--web--language--disable--color: var(--light__mode__class__web__language__disable__color); 
+    --class--web--language--hover--enable--color: var(--light__mode__class__web__language__hover__enable__color);
+
+                        /* $$$ */
+
+    --main--background--color: var(--light__mode__main__background__color); 
+    --main--color: var(--light__mode__main__color); 
+
+                        /* $$$ */
+
+    --heading--color: var(--light__mode__heading__color);
+    /* --h1--color: var(--light__mode__h1__color); */
+    /* --h2--color: var(--light__mode__h2__color); */
+    /* --h3--color: var(--light__mode__h3__color); */
+    /* --h4--color: var(--light__mode__h4__color); */
+    /* --h5--color: var(--light__mode__h5__color); */
+    /* --h6--color: var(--light__mode__h6__color); */
+
+                        /* $$$ */
+
+    --paragraph--color: var(--light__mode__paragraph__color); 
+
+                        /* $$$ */
+
+    --footer--background--color: var(--light__mode__footer__background__color); 
+    --footer--color: var(--light__mode__footer__color); 
+
+/* < < < <   < < < <      LIGHT MODE     > > > >   > > > > */
+}
+
+.dark-mode{
+/* < < < <   < < < <       DARK MODE     > > > >   > > > > */
+
+    --body--background--color: var(--dark__mode__body__background__color); 
+    --body--color: var(--dark__mode__body__color); 
+
+                        /* $$$ */
+
+    --header--background--color: var(--dark__mode__header__background__color); 
+    --header--color: var(--dark__mode__header__color); 
+
+                        /* $$$ */
+
+    --class--logo--disable--color: var(--dark__mode__class__logo__disable__color);
+    --class--logo--left--hover--enable--color: var(--dark__mode__class__logo__left__hover__enable__color);
+    --class--logo--right--hover--enable--color: var(--dark__mode__class__logo__right__hover__enable__color);
+    --class--logo--hover--background--color: var(--dark__mode__class__logo__hover__background__color);
+
+                        /* $$$ */
+
+    --class--web--language--disable--color: var(--dark__mode__class__web__language__disable__color); 
+    --class--web--language--hover--enable--color: var(--dark__mode__class__web__language__hover__enable__color);
+
+                        /* $$$ */
+
+    --main--background--color: var(--dark__mode__main__background__color); 
+    --main--color: var(--dark__mode__main__color); 
+
+                        /* $$$ */
+
+
+    --heading--color: var(--dark__mode__heading__color);
+    /* --h1--color: var(--dark__mode__h1__color); */
+    /* --h2--color: var(--dark__mode__h2__color); */
+    /* --h3--color: var(--dark__mode__h3__color); */
+    /* --h4--color: var(--dark__mode__h4__color); */
+    /* --h5--color: var(--dark__mode__h5__color); */
+    /* --h6--color: var(--dark__mode__h6__color); */
+
+                        /* $$$ */
+
+    --paragraph--color: var(--dark__mode__paragraph__color); 
+
+                        /* $$$ */
+
+    --footer--background--color: var(--dark__mode__footer__background__color); 
+    --footer--color: var(--dark__mode__footer__color); 
+
+/* < < < <   < < < <      DARK MODE      > > > >   > > > > */
+}
